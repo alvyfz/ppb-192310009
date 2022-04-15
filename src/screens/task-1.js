@@ -19,22 +19,7 @@ export default function HomeScreen({navigation}) {
   };
   return (
     <SafeAreaView style={styles.main}>
-      <View style={styles.containerBack}>
-        <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Text
-            style={{
-              color: '#FAFDD6',
-              justifyContent: 'center',
-              marginLeft: 10,
-              marginTop: 7,
-              fontSize: 18,
-              fontFamily: 'Open Sans',
-            }}>
-            Back
-          </Text>
-        </TouchableOpacity>
-      </View>
-      <View style={{backgroundColor: '#007667', height: '15%'}}>
+      <View style={{backgroundColor: '#007667', height: '20%'}}>
         <TouchableOpacity
           onPress={showToast}
           style={{

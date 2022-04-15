@@ -44,6 +44,19 @@ export default function HomeScreen({navigation}) {
         onPress={() => navigation.navigate('Task2')}>
         <Text style={{color: '#A2B38B', fontSize: 16}}>Task 2</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={{
+          width: '80%',
+          marginHorizontal: '10%',
+          height: 40,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: '#FAFDD6',
+          margin: 5,
+        }}
+        onPress={() => navigation.navigate('Task3')}>
+        <Text style={{color: '#A2B38B', fontSize: 16}}>Task 3</Text>
+      </TouchableOpacity>
     </SafeAreaView>
   );
 }
